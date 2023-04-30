@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 5201610742617634967}
   - component: {fileID: 5365094291171244659}
   - component: {fileID: 8497837775915021421}
+  - component: {fileID: 6448031208120299236}
   m_Layer: 0
   m_Name: Maincam
   m_TagString: Player
@@ -370,7 +371,7 @@ BoxCollider:
   m_GameObject: {fileID: 3887407280502400052}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.17186792, y: 0.39605814, z: 0.21859816}
   m_Center: {x: 0.0021620498, y: -0.7710293, z: -0.54253316}
@@ -453,6 +454,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c8c00c790d4db790fe468a5c62d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &6448031208120299236
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 0.4
+  m_Direction: 1
+  m_Center: {x: 0.0021, y: -0.77, z: -0.54}
 --- !u!1 &3887407280502400054
 GameObject:
   m_ObjectHideFlags: 0
