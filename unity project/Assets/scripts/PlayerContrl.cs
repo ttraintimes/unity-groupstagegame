@@ -10,16 +10,7 @@ using System.Collections;
 
     [SerializeField]
     Camera firstCamera;
-    [SerializeField]
-    Camera secondCamera;
-    [SerializeField]
-    Camera thirdCamera;
 
-    // Inisialisasi State
-    private bool switchCam = false;
-    private bool backCam = false;
-    // Start is called before the first frame update
-    //
         public CharacterController controller;
 
         public float speed = 2f;
@@ -46,38 +37,11 @@ using System.Collections;
         void Start()
         {
         firstCamera.GetComponent<Camera>().enabled = true;
-        secondCamera.GetComponent<Camera>().enabled = false;
-        thirdCamera.GetComponent<Camera>().enabled = false;
         originalRotation = transform.localRotation;
         }
         void Update() {
             UpdateMouseLook();
         UpdateMovement();
-        
-            // Input Key
-        if (Input.GetKeyDown("t")) {
-            switchCam = !switchCam;
-            backCam = false;
-        }
-
-        if (Input.GetKeyDown("b")) {
-            switchCam = false;
-            backCam = true;
-        }
-
-        if(switchCam == true){
-            firstCamera.GetComponent<Camera>().enabled = false;
-            secondCamera.GetComponent<Camera>().enabled = true;
-            thirdCamera.GetComponent<Camera>().enabled = false;
-        } else if (backCam == true){
-            firstCamera.GetComponent<Camera>().enabled = false;
-            secondCamera.GetComponent<Camera>().enabled = false;
-            thirdCamera.GetComponent<Camera>().enabled = true;
-        } else {
-            firstCamera.GetComponent<Camera>().enabled = true;
-            secondCamera.GetComponent<Camera>().enabled = false;
-            thirdCamera.GetComponent<Camera>().enabled = false;
-        }
 
         }
 
