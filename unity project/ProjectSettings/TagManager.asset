@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - end
+  - main
+  - bgmusic
+  - beach
+  - flower
+  - rain
+  - letter
+  - Ground
   layers:
   - Default
   - TransparentFX

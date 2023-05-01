@@ -394,6 +394,7 @@ MonoBehaviour:
   speed: 2
   walkspeed: 2
   sprintspeed: 10
+  jumpSpeed: 0
   gravity: 5
   axes: 0
 --- !u!81 &7779021828742370763
