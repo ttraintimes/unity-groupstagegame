@@ -12,6 +12,8 @@ TagManager:
   - rain
   - letter
   - Ground
+  - next
+  - previous
   layers:
   - Default
   - TransparentFX
