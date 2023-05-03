@@ -138,6 +138,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1401316293642407457, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401316293642407457, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1453
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401316293642407457, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 2244488862497404269, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
@@ -147,6 +162,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738358263644339314, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_text
+      value: '  X'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738358263644339314, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738358263644339314, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 2738358263644339314, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2738358263644339314, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 3386442491584879716, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -417,6 +458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186135785001487592, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7750407201878921762, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
