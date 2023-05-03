@@ -7,7 +7,7 @@ public class playerflower : MonoBehaviour
 {
     GameObject raycastedObj;
     public Text flowernum;
-    public Image guide;
+    public Text guide;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask flowerLayer;

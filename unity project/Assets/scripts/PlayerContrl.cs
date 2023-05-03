@@ -10,6 +10,7 @@ using System.Collections;
 
     [SerializeField]
     Camera firstCamera;
+    
 
         public CharacterController controller;
 
@@ -23,7 +24,7 @@ using System.Collections;
 
         public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 3F;
+    private float sensitivityX = 1F;
     private float sensitivityY = 1F;
     private float minimumX = -360F;
     private float maximumX = 360F;
@@ -42,6 +43,7 @@ using System.Collections;
         void Update() {
             UpdateMouseLook();
         UpdateMovement();
+        
 
         }
 

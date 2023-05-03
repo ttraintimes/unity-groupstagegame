@@ -7,9 +7,8 @@ public class playerscenetrans : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
-    public Image nextE;
-    public Image previousE;
-    public Image endE;
+    public Text nextE;
+    public Text endE;
     public AudioSource BeachAudio;
 
     [SerializeField] private int InteractionRange = 2;
@@ -21,7 +20,6 @@ public class playerscenetrans : MonoBehaviour
     void Start()
     {
         nextE.enabled = false;
-        previousE.enabled = false;
         endE.enabled = false;
     }
 
@@ -35,20 +33,6 @@ public class playerscenetrans : MonoBehaviour
             if (hit.collider.CompareTag("next"))
             {
                 nextE.enabled = true;
-                raycastedObj = hit.collider.gameObject;
-                referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
-
-                if (Input.GetKeyDown("e") && (referencedScript != null))
-                {
-                    referencedScript.interact();
-                    raycastedObj = null;
-                    referencedScript = null;
-                    raycastedObj = null;
-                }
-            }
-            if (hit.collider.CompareTag("previous"))
-            {
-                previousE.enabled = true;
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -82,7 +66,6 @@ public class playerscenetrans : MonoBehaviour
         else
         {
             nextE.enabled = false;
-            previousE.enabled = false;
             endE.enabled = false;
         }
 
