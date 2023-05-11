@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8807671458239833220}
   - component: {fileID: 7642025826444885290}
   - component: {fileID: 9190839271658051799}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: flower1
   m_TagString: flower
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7006438795597104465}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -199,7 +199,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7237714284334361770}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5646135
   m_Height: 2.181334
