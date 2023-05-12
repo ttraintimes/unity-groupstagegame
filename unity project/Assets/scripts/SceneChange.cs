@@ -23,6 +23,7 @@ public class SceneChange : MonoBehaviour
         Time.timeScale = 1;
         if ((interact.triggered == true) && (transitionTriggered == false))
         {
+            Debug.Log("door");
             transitionTriggered = true;
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
