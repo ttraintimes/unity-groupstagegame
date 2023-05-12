@@ -285,17 +285,17 @@ PrefabInstance:
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.34
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.56
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.65
+      value: -34
       objectReference: {fileID: 0}
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
@@ -2389,7 +2389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1355796231
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2406,8 +2406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -258, y: -446}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -258, y: -458.6}
+  m_SizeDelta: {x: 1000, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355796232
 MonoBehaviour:
@@ -2429,8 +2429,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 1ef80bc1539aade4987b335ac8b83ac0, type: 3}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 19a659eb773a4d3459622d940e6079a6, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2699,6 +2699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pendulum (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263193850122822931, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
@@ -4295,6 +4300,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 169494037523561838, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 169494037523561838, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 169494037523561838, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.89
+      objectReference: {fileID: 0}
     - target: {fileID: 1528448031989944777, guid: a7b9f544d3baa4d6389b48a59946ef35,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4505,6 +4525,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.74
       objectReference: {fileID: 0}
+    - target: {fileID: 5944284804632637624, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6123156905124211721, guid: a7b9f544d3baa4d6389b48a59946ef35,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -4630,6 +4655,16 @@ PrefabInstance:
       propertyPath: _noteImage
       value: 
       objectReference: {fileID: 1450804762}
+    - target: {fileID: 7380387596449664606, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 18.468195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748222920909770133, guid: a7b9f544d3baa4d6389b48a59946ef35,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 21.768162
+      objectReference: {fileID: 0}
     - target: {fileID: 8170620734053950023, guid: a7b9f544d3baa4d6389b48a59946ef35,
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime0
@@ -4748,7 +4783,7 @@ PrefabInstance:
     - target: {fileID: 9168148639794390181, guid: a7b9f544d3baa4d6389b48a59946ef35,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b9f544d3baa4d6389b48a59946ef35, type: 3}
@@ -4763,6 +4798,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pendulum (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263193850122822931, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5263193850122822932, guid: 541848de9ac7641adbf8dc7a9eb39e1d,
         type: 3}
